@@ -164,4 +164,64 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/*education-experience*/
+
+.education-experience ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.education-experience p {
+  text-align: left;
+}
+
+.education-experience li {
+  display: inline-block;
+  /*display: inline;*/
+  margin-bottom: 50px;
+}
+
+.education-experience img {
+  width: 180px;
+  float: left;
+}
+
+.education-experience__list__description {
+  overflow: hidden;
+  margin-left: 250px;
+}
+
+
+/*photos*/
+
+.photos {
+  box-sizing: border-box;
+  /*padding: 1px;*/
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.photos img {
+  padding: 10px; 
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.photos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.photos li {
+  width: 24.6%;
+  display: inline-block;
+}
+
+
+
 
